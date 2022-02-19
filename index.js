@@ -3,9 +3,7 @@ const client = new Discord.Client();
 
 import 'discord-reply';
 import { readFile } from 'fs/promises';
-import { request } from 'http';
 import fetch from 'node-fetch';
-import fs from 'fs';
 
 const config = JSON.parse(
   await readFile(
